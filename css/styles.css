@@ -50,21 +50,44 @@ h1 {
     text-align: center;
     color: #3F2D1F;
     font-family: "magilio-regular";
-    font-size: 25px;
+    font-size: 23px;
   }
 
   .intro p {
     text-align: center;
-    margin-left: 19px;
-    margin-right: 19px;
+    margin-left: 44px;
+    margin-right: 44px;
     color: #3F2D1F;
     font-family: "lato-light";
+    font-size: 13px;
   }
 
   .intro {
     background-color: #E7EECC;
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+
+  main {
+    background-color: #F7F4E6;
+  }
+
+  main p {
+    font-family: "lato-regular";
+    text-align: center;
+    color: #3F2D1F;
+    font-size: 13px;
+  }
+
+  .button {
+    height: 100px;
+    width: 100px;
+    color: #3F2D1F;
+    font-family: "lato-regular";
+    font-size: 17px;
+    border: solid 2px #3F2D1F;
+    padding: 1px 3px;
+    box-shadow: 5px 5px 0px -1px #98876A;
   }
 
 
