@@ -37,7 +37,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
     font-family: "lato-regular";
-    font-size: 10px;
+    font-size: 12px;
   }
 
   a {
@@ -88,6 +88,31 @@ h1 {
     border: solid 2px #3F2D1F;
     padding: 1px 3px;
     box-shadow: 5px 5px 0px -1px #98876A;
+  }
+
+  .adress {
+    background-color: #E7EECC;
+  }
+
+  h2 {
+    font-family: "lato-regular";
+    color: #3F2D1F;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .adress p {
+    font-family: "lato-light";
+    color: #3F2D1F;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .inter-lign {
+    font-size: 50px;
+    color: #C3514C;
+    text-align: center;
+    font-family: "lato-light";
   }
 
 
