@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "lato-light";
+  src: url("../fonts/Lato-Light.woff") format("woff"),
+  url("../fonts/Lato-Light.woff2") format("woff2");
+  }
+
+@font-face {
+  font-family: "lato-regular";
+  src: url("../fonts/Lato-Regular.woff") format("woff"),
+  url("../fonts/Lato-Regular.woff2") format("woff2");
+  }
+
+@font-face {
+  font-family: "lato-bold";
+  src: url("../fonts/Lato-Bold.woff") format("woff"),
+  url("../fonts/Lato-Bold.woff2") format("woff2");
+  }
+
+@font-face {
+  font-family: "magilio-regular";
+  src: url("../fonts/Magilio-Regular.woff") format("woff"),
+  url("../fonts/Magilio-Regular.woff2") format("woff2");
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    max-width: 375px;
+    margin: auto;
+    background-color: #F7F4E6;
+  }
+
+  .menu-nav {
+    background-color: #98876A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "lato-regular";
+    font-size: 10px;
+  }
+
+  a {
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: #F7F4E6;
+  }
+
+h1 {
+    text-align: center;
+    color: #3F2D1F;
+    font-family: "magilio-regular";
+    font-size: 25px;
+  }
+
+  .intro p {
+    text-align: center;
+    margin-left: 19px;
+    margin-right: 19px;
+    color: #3F2D1F;
+    font-family: "lato-light";
+  }
+
+  .intro {
+    background-color: #E7EECC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+
+
+  
+  
