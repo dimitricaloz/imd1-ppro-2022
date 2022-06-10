@@ -38,10 +38,12 @@
     padding-bottom: 10px;
     font-family: "lato-regular";
     font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
   a {
-    justify-content: space-evenly;
     text-decoration: none;
     color: #F7F4E6;
   }
@@ -51,6 +53,7 @@ h1 {
     color: #3F2D1F;
     font-family: "magilio-regular";
     font-size: 23px;
+    padding-top: 3px;
   }
 
   .intro p {
@@ -64,7 +67,7 @@ h1 {
 
   .intro {
     background-color: #E7EECC;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 10px;
   }
 
@@ -77,6 +80,7 @@ h1 {
     text-align: center;
     color: #3F2D1F;
     font-size: 13px;
+    margin-bottom: 20px;
   }
 
   .button {
@@ -84,14 +88,16 @@ h1 {
     width: 100px;
     color: #3F2D1F;
     font-family: "lato-regular";
-    font-size: 17px;
+    font-size: 19px;
     border: solid 2px #3F2D1F;
-    padding: 1px 3px;
+    padding: 2px 5px;
     box-shadow: 5px 5px 0px -1px #98876A;
+    margin: 0 0 0 73px;
   }
 
   .adress {
     background-color: #E7EECC;
+    padding-bottom: 57px;
   }
 
   h2 {
@@ -99,6 +105,7 @@ h1 {
     color: #3F2D1F;
     font-size: 22px;
     text-align: center;
+    margin: 0px;
   }
 
   .adress p {
@@ -106,6 +113,7 @@ h1 {
     color: #3F2D1F;
     font-size: 22px;
     text-align: center;
+    margin: 0px;
   }
 
   .inter-lign {
@@ -118,17 +126,22 @@ h1 {
   footer {
     background-color: #2C2117;
     color: #F7F4E6;
+    padding-bottom: 1px;
   }
 
   footer h1 {
     color: #F7F4E6;
+    padding-top: 19px;
+    margin: 0px;
   }
 
   footer p {
     text-align: left;
     font-family: "lato-regular";
     font-size: 17px;
+    padding-bottom: 8px;
   }
+
   footer a {
     text-align: left;
     font-family: "lato-bold";
@@ -137,6 +150,43 @@ h1 {
 
   .info-footer {
     border: solid 2px #F7F4E6;
-    padding: 0px 33px;
-    margin: 30px;
+    padding: 0 33px 33px 33px;
+    margin: 55px;
+    margin-top: 19px;
+  }
+
+  img {
+    max-width: 230px;
+    display: block;
+    margin: auto;
+    padding-bottom: 19px;
+  }
+
+  header img {
+    max-width: 100%;
+    padding-bottom: 0px;
+  }
+
+  .adress img {
+    max-width: 405px;
+    padding-bottom: 0px;
+    display: block;
+    margin: auto;
+  }
+
+  .bleuet {
+    margin-bottom: 50px;
+  }
+
+  .haricot {
+    margin-bottom: 50px;
+  }
+
+  .potimarron {
+    margin-bottom: 50px;
+  }
+
+  .adress h1 {
+    margin-top: 30px;
+    padding-top: 30px;
   }
